@@ -1,0 +1,259 @@
+// ===================================================================
+// Portfolio Data — TypeScript Interfaces & Sample Data
+// ===================================================================
+// Edit data di bawah untuk mengupdate konten website Anda.
+// Cukup ubah nilai-nilai dalam objek `portfolioData` di bagian bawah.
+// ===================================================================
+
+// === Biodata & CV ===
+export interface Biodata {
+  name: string
+  title: string
+  university: string
+  email: string
+  phone: string
+  location: string
+  linkedin?: string
+  github?: string
+  website?: string
+  about: string
+  photoUrl: string
+}
+
+// === Pendidikan ===
+export interface Education {
+  institution: string
+  degree: string
+  field: string
+  startYear: number
+  endYear?: number
+  gpa?: number
+  description?: string
+}
+
+// === Pengalaman Organisasi & Kepanitiaan ===
+export interface OrganizationExperience {
+  organization: string
+  role: string
+  type: 'organisasi' | 'kepanitiaan'
+  startDate: string
+  endDate?: string
+  descriptions: string[]
+}
+
+// === Skills ===
+export interface SkillItem {
+  name: string
+  level?: number
+  icon?: string
+}
+
+export interface SkillCategory {
+  category: 'Soft Skills' | 'Hard Skills' | 'Programming Languages'
+  items: SkillItem[]
+}
+
+// === Interest & Languages ===
+export interface Interest {
+  name: string
+  icon?: string
+}
+
+export interface Language {
+  name: string
+  proficiency: 'Native' | 'Fluent' | 'Intermediate' | 'Beginner'
+}
+
+// === Proyek Kuliah ===
+export interface Project {
+  title: string
+  technologies: string[]
+  description: string
+  link?: string
+  imageUrl?: string
+  course?: string
+}
+
+// === Root Data Structure ===
+export interface PortfolioData {
+  biodata: Biodata
+  education: Education[]
+  experiences: OrganizationExperience[]
+  skills: SkillCategory[]
+  interests: Interest[]
+  languages: Language[]
+  projects: Project[]
+}
+
+
+// ===================================================================
+//  DATA — Edit bagian ini untuk mengupdate konten portofolio Anda
+// ===================================================================
+
+export const portfolioData: PortfolioData = {
+  // ── Biodata ──────────────────────────────────────────────────────
+  biodata: {
+    name: 'Michael Ivan Farrelino',
+    title: 'Mahasiswa Teknologi Informasi',
+    university: 'Universitas Brawijaya',
+    email: 'michaelivanf@gmail.com',
+    phone: '+62 812-1825-7284',
+    location: 'Jakarta, Indonesia',
+    linkedin: 'https://linkedin.com/in/michaelivanf',
+    github: 'https://github.com/mivanf',
+    about:
+      '// ubah -- Saya adalah mahasiswa Teknologi Informasi yang bersemangat dalam pengembangan web dan mobile. ' +
+      '// ubah -- Memiliki ketertarikan mendalam pada teknologi modern, desain UI/UX, dan pemecahan masalah. ' +
+      '// ubah -- Selalu bersemangat untuk belajar hal baru dan berkontribusi dalam proyek kolaboratif.',
+    photoUrl: '/profile-placeholder.svg',
+  },
+
+  // ── Pendidikan ───────────────────────────────────────────────────
+  education: [
+    {
+      institution: 'Universitas Brawijaya',
+      degree: 'Sarjana (S1)',
+      field: 'Teknologi Informasi',
+      startYear: 2023,
+      gpa: 3.83,
+      description:
+        '// ubah -- Fokus pada bidang rekayasa perangkat lunak dan pengembangan web. Aktif dalam berbagai kegiatan akademik dan organisasi kampus.',
+    },
+    {
+      institution: 'SMA Negeri 14 Jakarta',
+      degree: 'SMA',
+      field: 'IPA (Ilmu Pengetahuan Alam)',
+      startYear: 2020,
+      endYear: 2023,
+      description: '// ubah -- Lulus dengan predikat cumlaude. Aktif di OSIS dan olimpiade sains.',
+    },
+  ],
+
+  // ── Pengalaman Organisasi & Kepanitiaan ──────────────────────────
+  experiences: [
+    {
+      organization: 'Himpunan Mahasiswa Informatika',
+      role: 'Ketua Divisi Teknologi',
+      type: 'organisasi',
+      startDate: 'Sep 2023',
+      descriptions: [
+        'Memimpin tim pengembangan website resmi himpunan.',
+        'Menyelenggarakan workshop pemrograman untuk anggota baru.',
+        'Mengelola infrastruktur server dan domain himpunan.',
+      ],
+    },
+    {
+      organization: 'TechFest 2024',
+      role: 'Koordinator Acara',
+      type: 'kepanitiaan',
+      startDate: 'Jan 2024',
+      endDate: 'Mar 2024',
+      descriptions: [
+        'Mengkoordinasikan acara kompetisi coding dengan 200+ peserta.',
+        'Mengelola timeline dan logistik acara.',
+        'Berkolaborasi dengan sponsor dari industri teknologi.',
+      ],
+    },
+    {
+      organization: 'Google Developer Student Club',
+      role: 'Core Team Member',
+      type: 'organisasi',
+      startDate: 'Aug 2023',
+      descriptions: [
+        'Menjadi fasilitator workshop Android Development.',
+        'Mengorganisir study jam bulanan untuk anggota.',
+        'Berkontribusi dalam pembuatan materi pembelajaran.',
+      ],
+    },
+  ],
+
+  // ── Skills ───────────────────────────────────────────────────────
+  skills: [
+    {
+      category: 'Programming Languages',
+      items: [
+        { name: 'TypeScript', level: 4, icon: '🟦' },
+        { name: 'JavaScript', level: 5, icon: '🟨' },
+        { name: 'Python', level: 4, icon: '🐍' },
+        { name: 'Java', level: 3, icon: '☕' },
+        { name: 'C++', level: 3, icon: '⚙️' },
+        { name: 'SQL', level: 4, icon: '🗄️' },
+      ],
+    },
+    {
+      category: 'Hard Skills',
+      items: [
+        { name: 'Vue.js / React', level: 4, icon: '⚡' },
+        { name: 'Node.js', level: 4, icon: '🟢' },
+        { name: 'REST API Design', level: 4, icon: '🔌' },
+        { name: 'Git & GitHub', level: 5, icon: '🔀' },
+        { name: 'Docker', level: 3, icon: '🐳' },
+        { name: 'Database Design', level: 4, icon: '📊' },
+      ],
+    },
+    {
+      category: 'Soft Skills',
+      items: [
+        { name: 'Kepemimpinan', level: 4, icon: '👥' },
+        { name: 'Komunikasi', level: 5, icon: '💬' },
+        { name: 'Problem Solving', level: 5, icon: '🧩' },
+        { name: 'Kerja Tim', level: 5, icon: '🤝' },
+        { name: 'Manajemen Waktu', level: 4, icon: '⏰' },
+        { name: 'Berpikir Kritis', level: 4, icon: '🧠' },
+      ],
+    },
+  ],
+
+  // ── Interests ────────────────────────────────────────────────────
+  interests: [
+    { name: 'Web Development', icon: '🌐' },
+    { name: 'UI/UX Design', icon: '🎨' },
+    { name: 'Machine Learning', icon: '🤖' },
+    { name: 'Open Source', icon: '💡' },
+    { name: 'Cloud Computing', icon: '☁️' },
+    { name: 'Competitive Programming', icon: '🏆' },
+  ],
+
+  // ── Languages ────────────────────────────────────────────────────
+  languages: [
+    { name: 'Indonesia', proficiency: 'Native' },
+    { name: 'English', proficiency: 'Fluent' },
+    { name: 'Japanese', proficiency: 'Beginner' },
+  ],
+
+  // ── Proyek Kuliah ────────────────────────────────────────────────
+  projects: [
+    {
+      title: 'Notify',
+      technologies: ['Vue.js', 'Node.js', 'PostgreSQL', 'Tailwind CSS'],
+      description:
+        'Platform e-commerce full-stack dengan fitur keranjang belanja, pembayaran, dan manajemen produk. Mengimplementasikan autentikasi JWT dan REST API.',
+      link: 'https://github.com/mivanf/Project-PAM',
+      course: 'Pemrograman Web',
+    },
+    {
+      title: 'Task Management App',
+      technologies: ['React', 'TypeScript', 'Firebase', 'Material UI'],
+      description:
+        'Aplikasi manajemen tugas real-time dengan fitur drag-and-drop, kolaborasi tim, dan notifikasi. Menggunakan Firebase untuk sinkronisasi data.',
+      link: 'https://github.com/mivan/taskapp',
+      course: 'Rekayasa Perangkat Lunak',
+    },
+    {
+      title: 'Machine Learning Classifier',
+      technologies: ['Python', 'TensorFlow', 'Pandas', 'Jupyter'],
+      description:
+        'Model klasifikasi gambar menggunakan Convolutional Neural Network (CNN) untuk mendeteksi penyakit tanaman. Akurasi mencapai 94%.',
+      link: 'https://github.com/mivan/ml-classifier',
+      course: 'Pembelajaran Mesin',
+    },
+    {
+      title: 'Chat Application',
+      technologies: ['Socket.IO', 'Express.js', 'MongoDB', 'React'],
+      description:
+        'Aplikasi chat real-time dengan fitur room, direct message, dan berbagi file. Mendukung notifikasi push dan status online/offline.',
+      link: 'https://github.com/mivan/chatapp',
+      course: 'Jaringan Komputer',
+    },
+  ],
+}
