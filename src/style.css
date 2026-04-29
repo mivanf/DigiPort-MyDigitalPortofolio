@@ -139,15 +139,6 @@ body.light {
   transform: translateY(-4px);
 }
 
-body.light .glass-card {
-  background: rgba(255, 255, 255, 0.8);
-  border-color: rgba(203, 213, 225, 0.6);
-}
-
-body.light .glass-card:hover {
-  border-color: rgba(59, 130, 246, 0.5);
-  box-shadow: 0 8px 32px rgba(59, 130, 246, 0.12);
-}
 
 /* ===== Section ===== */
 .section-container {
@@ -172,15 +163,244 @@ body.light .glass-card:hover {
   font-size: 1.05rem;
 }
 
-/* ===== Light mode overrides ===== */
+/* ===== Section Title — Light Mode ===== */
+body.light .section-title {
+  background: linear-gradient(135deg, var(--color-primary-600), var(--color-primary-800));
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
 body.light .section-subtitle {
   color: var(--color-surface-600);
 }
 
+/* ===== Scrollbar — Light Mode ===== */
 body.light ::-webkit-scrollbar-track {
   background: var(--color-surface-100);
 }
 
 body.light ::-webkit-scrollbar-thumb {
   background: var(--color-surface-400);
+}
+
+/* ===== Navbar — Light Mode ===== */
+body.light #navbar.bg-surface-900\/80 {
+  --tw-bg-opacity: 0.85;
+}
+
+body.light #navbar {
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+body.light #navbar a.text-surface-300,
+body.light #navbar button.text-surface-400 {
+  color: var(--color-surface-600);
+}
+
+body.light #navbar a.text-surface-300:hover,
+body.light #navbar button.text-surface-400:hover {
+  color: var(--color-primary-600);
+  background-color: var(--color-primary-50);
+}
+
+/* Mobile menu — light mode */
+body.light .md\:hidden.bg-surface-900\/95 {
+  background-color: rgba(255, 255, 255, 0.97);
+  border-color: var(--color-surface-200);
+}
+
+body.light .md\:hidden .text-surface-300 {
+  color: var(--color-surface-600);
+}
+
+body.light .md\:hidden .text-surface-300:hover {
+  color: var(--color-primary-600);
+  background-color: var(--color-primary-50);
+}
+
+/* ===== Hero Section — Light Mode ===== */
+body.light #about h1.text-white,
+body.light h1.text-white {
+  color: var(--color-surface-900);
+}
+
+body.light #about .text-primary-400 {
+  color: var(--color-primary-600);
+}
+
+body.light #about .text-surface-400 {
+  color: var(--color-surface-600);
+}
+
+body.light #about .text-surface-300 {
+  color: var(--color-surface-700);
+}
+
+/* Contact badges — light mode */
+body.light .bg-surface-800\/80 {
+  background-color: rgba(241, 245, 249, 0.9);
+  border-color: var(--color-surface-200);
+}
+
+body.light .bg-surface-800\/80 .text-surface-300,
+body.light .text-surface-300.bg-surface-800\/80,
+body.light span.text-surface-300 {
+  color: var(--color-surface-600);
+}
+
+/* Social buttons — light mode */
+body.light a.bg-surface-800 {
+  background-color: var(--color-surface-100);
+  border-color: var(--color-surface-200);
+  color: var(--color-surface-700);
+}
+
+body.light a.bg-surface-800:hover {
+  background-color: var(--color-surface-200);
+  border-color: var(--color-surface-300);
+}
+
+/* Background orbs — light mode (make them more subtle) */
+body.light .bg-primary-500\/10 {
+  background-color: rgba(59, 130, 246, 0.06);
+}
+
+body.light .bg-primary-600\/10 {
+  background-color: rgba(37, 99, 235, 0.06);
+}
+
+body.light .bg-primary-500\/5 {
+  background-color: rgba(59, 130, 246, 0.03);
+}
+
+/* ===== Glass Card — Light Mode (already defined above, extending) ===== */
+body.light .glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  border-color: var(--color-surface-200);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+body.light .glass-card:hover {
+  border-color: var(--color-primary-400);
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.1), 0 4px 10px rgba(0, 0, 0, 0.04);
+}
+
+/* Headings inside cards — light mode */
+body.light .glass-card h3.text-white,
+body.light h3.text-white {
+  color: var(--color-surface-900);
+}
+
+body.light .glass-card .text-primary-400 {
+  color: var(--color-primary-600);
+}
+
+body.light .glass-card .text-surface-300 {
+  color: var(--color-surface-600);
+}
+
+body.light .glass-card .text-surface-200 {
+  color: var(--color-surface-700);
+}
+
+/* ===== Timeline — Light Mode ===== */
+body.light .ring-surface-900 {
+  --tw-ring-color: var(--color-surface-50);
+}
+
+/* ===== Badges — Light Mode ===== */
+body.light .bg-surface-800\/80[class*="rounded-full"] {
+  background-color: var(--color-surface-100);
+  border-color: var(--color-surface-200);
+}
+
+body.light .bg-surface-800\/80 {
+  background-color: var(--color-surface-100);
+}
+
+body.light span.text-surface-400,
+body.light .text-surface-400 {
+  color: var(--color-surface-500);
+}
+
+body.light .text-surface-500 {
+  color: var(--color-surface-500);
+}
+
+/* ===== Progress Bars — Light Mode ===== */
+body.light .bg-surface-800 {
+  background-color: var(--color-surface-200);
+}
+
+body.light .bg-surface-800\/50 {
+  background-color: rgba(226, 232, 240, 0.6);
+}
+
+/* ===== Interest items — Light Mode ===== */
+body.light .bg-surface-800\/50.border-surface-700\/30 {
+  background-color: var(--color-surface-100);
+  border-color: var(--color-surface-200);
+}
+
+body.light .hover\:bg-surface-800\/80:hover {
+  background-color: rgba(226, 232, 240, 0.8);
+}
+
+body.light .hover\:border-primary-500\/40:hover {
+  border-color: var(--color-primary-400);
+}
+
+/* ===== Project Card — Light Mode ===== */
+body.light .bg-gradient-to-br.from-primary-900\/40 {
+  background: linear-gradient(to bottom right, rgba(59, 130, 246, 0.1), var(--color-surface-100));
+}
+
+body.light .bg-gradient-to-t.from-surface-900\/90 {
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1), transparent);
+}
+
+body.light .group-hover\:text-primary-400:hover,
+body.light .group:hover .group-hover\:text-primary-400 {
+  color: var(--color-primary-600);
+}
+
+/* ===== Footer — Light Mode ===== */
+body.light footer {
+  background-color: var(--color-surface-100);
+  border-color: var(--color-surface-200);
+}
+
+body.light footer .bg-surface-800 {
+  background-color: var(--color-surface-200);
+  border-color: var(--color-surface-300);
+}
+
+body.light footer .bg-surface-800:hover {
+  background-color: var(--color-surface-300);
+}
+
+body.light footer .text-surface-300 {
+  color: var(--color-surface-700);
+}
+
+body.light footer .text-surface-500 {
+  color: var(--color-surface-500);
+}
+
+body.light footer .border-surface-800\/50 {
+  border-color: var(--color-surface-200);
+}
+
+/* ===== General Utility Overrides — Light Mode ===== */
+body.light .border-surface-700\/50 {
+  border-color: var(--color-surface-200);
+}
+
+body.light .border-surface-700\/30 {
+  border-color: rgba(226, 232, 240, 0.6);
+}
+
+body.light .shadow-surface-950\/20 {
+  --tw-shadow-color: rgba(0, 0, 0, 0.05);
 }
