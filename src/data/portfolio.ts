@@ -110,7 +110,7 @@ export const portfolioData: PortfolioData = {
       startYear: 2023,
       gpa: 3.83,
       description:
-        '// ubah -- Fokus pada bidang rekayasa perangkat lunak dan pengembangan web. Aktif dalam berbagai kegiatan akademik dan organisasi kampus.',
+        'Fokus pada bidang rekayasa perangkat lunak dan pengembangan web. Aktif dalam berbagai kegiatan dan organisasi kampus.',
     },
     {
       institution: 'SMA Negeri 14 Jakarta',
@@ -118,7 +118,7 @@ export const portfolioData: PortfolioData = {
       field: 'IPA (Ilmu Pengetahuan Alam)',
       startYear: 2020,
       endYear: 2023,
-      description: '// ubah -- Lulus dengan predikat cumlaude. Aktif di OSIS dan olimpiade sains.',
+      description: '',
     },
   ],
 
