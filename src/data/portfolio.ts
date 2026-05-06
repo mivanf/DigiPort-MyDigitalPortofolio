@@ -252,6 +252,7 @@ export const portfolioData: PortfolioData = {
   projects: [
     {
       title: 'CEVO - Clean Energy Website',
+      imageUrl: 'cevo_image.png',
       technologies: ['HTML', 'CSS', 'JavaScript', 'Netlify', 'GitHub'],
       description:
         'A renewable energy education website in Indonesia featuring news, forums, a marketplace, and daily energy-saving challenges (CEVO Mission).',
@@ -260,6 +261,7 @@ export const portfolioData: PortfolioData = {
     },
     {
       title: 'Galeri MVC - Web Application',
+      imageUrl: 'mvc_image.png',
       technologies: ['PHP', 'MySQL', 'XAMPP', 'GitHub'],
       description:
         'An MVC-based gallery application for managing and displaying images along with user metadata.',
@@ -268,6 +270,7 @@ export const portfolioData: PortfolioData = {
     },
     {
       title: 'Notify - Mobile Productivity App',
+      imageUrl: 'notify_image.png',
       technologies: ['Android Studio', 'Java', 'Firebase', 'Cloudinary', 'Figma', 'GitHub'],
       description:
         'An Android app for managing daily tasks (notes, voice memos, documents, and to-do lists).',
@@ -276,6 +279,7 @@ export const portfolioData: PortfolioData = {
     },
     {
       title: 'DAUR - Recycling Platform',
+      imageUrl: 'daur_image.png',
       technologies: ['Vue 3', 'Laravel', 'TypeScript', 'MySQL', 'Cloudinary', 'Figma', 'GitHub'],
       description:
         'A web platform for waste management and a points-based rewards system for recycling.',
@@ -284,6 +288,7 @@ export const portfolioData: PortfolioData = {
     },
     {
       title: 'TalkThru - Let Every Voice Be Seen',
+      imageUrl: 'talkthru_image.png',
       technologies: ['Figma', 'Maze', 'TypeScript'],
       description:
         'A mobile app designed to support inclusive communication for Deaf students through AI-powered speech-to-text and sign-to-text features, as well as automatic storage of conversation transcripts.',
