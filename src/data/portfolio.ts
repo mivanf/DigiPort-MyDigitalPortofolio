@@ -98,7 +98,7 @@ export const portfolioData: PortfolioData = {
       'Mahasiswa Teknologi Informasi yang berfokus pada Web Development dan Mobile App Development. ' +
       'Membangun solusi digital yang user-centered menggunakan berbagai bahasa pemrograman dan tools modern. ' +
       'Tertarik belajar hal baru dan berkontribusi dalam proyek kolaboratif.',
-    photoUrl: '/profile-placeholder.svg',
+    photoUrl: '/profile.jpeg',
   },
 
   // ── Pendidikan ───────────────────────────────────────────────────
