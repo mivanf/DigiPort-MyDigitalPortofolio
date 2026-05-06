@@ -277,5 +277,13 @@ export const portfolioData: PortfolioData = {
       link: 'https://github.com/mivanf/Project-PAM',
       course: 'Pengembangan Aplikasi Mobile',
     },
+    {
+      title: 'DAUR - Recycling Platform',
+      technologies: ['Vue 3', 'Laravel', 'TypeScript', 'MySQL', 'Cloudinary', 'Figma', 'GitHub'],
+      description:
+        'A web platform for waste management and a points-based rewards system for recycling.',
+      link: 'https://https://github.com/ariel-naviandana/daur',
+      course: 'Pengembangan Aplikasi Web Lanjut',
+    },
   ],
 }
