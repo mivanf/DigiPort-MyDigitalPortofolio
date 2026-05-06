@@ -238,11 +238,8 @@ export const portfolioData: PortfolioData = {
   // ── Interests ────────────────────────────────────────────────────
   interests: [
     { name: 'Web Development', icon: '🌐' },
+    { name: 'Mobile App Development', icon: '📱' },
     { name: 'UI/UX Design', icon: '🎨' },
-    { name: 'Machine Learning', icon: '🤖' },
-    { name: 'Open Source', icon: '💡' },
-    { name: 'Cloud Computing', icon: '☁️' },
-    { name: 'Competitive Programming', icon: '🏆' },
   ],
 
   // ── Languages ────────────────────────────────────────────────────
