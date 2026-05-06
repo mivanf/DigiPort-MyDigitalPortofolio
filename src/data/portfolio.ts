@@ -269,5 +269,13 @@ export const portfolioData: PortfolioData = {
       link: 'https://github.com/mIkhsan0/webs',
       course: 'Dasar Desain Antarmuka Pengguna',
     },
+    {
+      title: 'Galeri MVC - Web Application',
+      technologies: ['PHP', 'MySQL', 'XAMPP', 'GitHub'],
+      description:
+        'An MVC-based gallery application for managing and displaying images along with user metadata.',
+      link: 'https://github.com/mivanf/ImageGalleryUTS',
+      course: 'Pengembangan Aplikasi Web',
+    },
   ],
 }
