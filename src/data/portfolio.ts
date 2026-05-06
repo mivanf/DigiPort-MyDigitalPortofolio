@@ -285,5 +285,13 @@ export const portfolioData: PortfolioData = {
       link: 'https://https://github.com/ariel-naviandana/daur',
       course: 'Pengembangan Aplikasi Web Lanjut',
     },
+    {
+      title: 'TalkThru - Let Every Voice Be Seen',
+      technologies: ['Figma', 'Maze', 'TypeScript'],
+      description:
+        'A mobile app designed to support inclusive communication for Deaf students through AI-powered speech-to-text and sign-to-text features, as well as automatic storage of conversation transcripts.',
+      link: 'https://www.figma.com/proto/nV9AQtXm80ycEdQ6SGm56o/Wireframe---Modul-9?node-id=700-5699&t=8GZUPyEUoYwZonEh-0&scaling=scale-down&content-scaling=fixed&page-id=180%3A2&starting-point-node-id=700%3A5699&show-proto-sidebar=1',
+      course: 'Perancangan Pengalaman Pengguna',
+    },
   ],
 }
