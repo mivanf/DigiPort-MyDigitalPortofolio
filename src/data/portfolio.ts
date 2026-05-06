@@ -262,28 +262,12 @@ export const portfolioData: PortfolioData = {
       course: 'Pemrograman Web',
     },
     {
-      title: 'Task Management App',
-      technologies: ['React', 'TypeScript', 'Firebase', 'Material UI'],
+      title: 'CEVO - Clean Energy Website',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'Netlify', 'GitHub'],
       description:
-        'Aplikasi manajemen tugas real-time dengan fitur drag-and-drop, kolaborasi tim, dan notifikasi. Menggunakan Firebase untuk sinkronisasi data.',
-      link: 'https://github.com/mivan/taskapp',
-      course: 'Rekayasa Perangkat Lunak',
-    },
-    {
-      title: 'Machine Learning Classifier',
-      technologies: ['Python', 'TensorFlow', 'Pandas', 'Jupyter'],
-      description:
-        'Model klasifikasi gambar menggunakan Convolutional Neural Network (CNN) untuk mendeteksi penyakit tanaman. Akurasi mencapai 94%.',
-      link: 'https://github.com/mivan/ml-classifier',
-      course: 'Pembelajaran Mesin',
-    },
-    {
-      title: 'Chat Application',
-      technologies: ['Socket.IO', 'Express.js', 'MongoDB', 'React'],
-      description:
-        'Aplikasi chat real-time dengan fitur room, direct message, dan berbagi file. Mendukung notifikasi push dan status online/offline.',
-      link: 'https://github.com/mivan/chatapp',
-      course: 'Jaringan Komputer',
+        'A renewable energy education website in Indonesia featuring news, forums, a marketplace, and daily energy-saving challenges (CEVO Mission).',
+      link: 'https://github.com/mIkhsan0/webs',
+      course: 'Dasar Desain Antarmuka Pengguna',
     },
   ],
 }
