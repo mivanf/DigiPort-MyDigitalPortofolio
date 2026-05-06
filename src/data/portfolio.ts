@@ -254,14 +254,6 @@ export const portfolioData: PortfolioData = {
   // ── Proyek Kuliah ────────────────────────────────────────────────
   projects: [
     {
-      title: 'Notify',
-      technologies: ['Vue.js', 'Node.js', 'PostgreSQL', 'Tailwind CSS'],
-      description:
-        'Platform e-commerce full-stack dengan fitur keranjang belanja, pembayaran, dan manajemen produk. Mengimplementasikan autentikasi JWT dan REST API.',
-      link: 'https://github.com/mivanf/Project-PAM',
-      course: 'Pemrograman Web',
-    },
-    {
       title: 'CEVO - Clean Energy Website',
       technologies: ['HTML', 'CSS', 'JavaScript', 'Netlify', 'GitHub'],
       description:
@@ -276,6 +268,14 @@ export const portfolioData: PortfolioData = {
         'An MVC-based gallery application for managing and displaying images along with user metadata.',
       link: 'https://github.com/mivanf/ImageGalleryUTS',
       course: 'Pengembangan Aplikasi Web',
+    },
+    {
+      title: 'Notify - Mobile Productivity App',
+      technologies: ['Android Studio', 'Java', 'Firebase', 'Cloudinary', 'Figma', 'GitHub'],
+      description:
+        'An Android app for managing daily tasks (notes, voice memos, documents, and to-do lists).',
+      link: 'https://github.com/mivanf/Project-PAM',
+      course: 'Pengembangan Aplikasi Mobile',
     },
   ],
 }
