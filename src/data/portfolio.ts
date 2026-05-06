@@ -1,10 +1,3 @@
-// ===================================================================
-// Portfolio Data — TypeScript Interfaces & Sample Data
-// ===================================================================
-// Edit data di bawah untuk mengupdate konten website Anda.
-// Cukup ubah nilai-nilai dalam objek `portfolioData` di bagian bawah.
-// ===================================================================
-
 // === Biodata & CV ===
 export interface Biodata {
   name: string
@@ -87,7 +80,7 @@ export interface PortfolioData {
 
 
 // ===================================================================
-//  DATA — Edit bagian ini untuk mengupdate konten portofolio Anda
+//  Konten Utama Portofolio
 // ===================================================================
 
 export const portfolioData: PortfolioData = {
@@ -102,9 +95,9 @@ export const portfolioData: PortfolioData = {
     linkedin: 'https://linkedin.com/in/michaelivanf',
     github: 'https://github.com/mivanf',
     about:
-      '// ubah -- Saya adalah mahasiswa Teknologi Informasi yang bersemangat dalam pengembangan web dan mobile. ' +
-      '// ubah -- Memiliki ketertarikan mendalam pada teknologi modern, desain UI/UX, dan pemecahan masalah. ' +
-      '// ubah -- Selalu bersemangat untuk belajar hal baru dan berkontribusi dalam proyek kolaboratif.',
+      'Mahasiswa Teknologi Informasi yang berfokus pada Web Development dan Mobile App Development. ' +
+      'Membangun solusi digital yang user-centered menggunakan berbagai bahasa pemrograman dan tools modern. ' +
+      'Tertarik belajar hal baru dan berkontribusi dalam proyek kolaboratif.',
     photoUrl: '/profile-placeholder.svg',
   },
 
