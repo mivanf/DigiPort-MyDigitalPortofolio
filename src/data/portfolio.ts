@@ -147,6 +147,18 @@ export const portfolioData: PortfolioData = {
         'Served as a supporting Contact Person, coordinating with the Public Relations team to assist participants through official communication groups.',
       ],
     },
+    {
+      organization: 'Competition of Outstanding Creativity and Exploration (CODE) FILKOM UB',
+      role: 'Member of Multimedia Documentation Design Division',
+      type: 'kepanitiaan',
+      startDate: 'Jul 2024',
+      endDate: 'Jun 2025',
+      descriptions: [
+        'Designed Instagram feed content for event introduction and post-event recap to support digital engagement.',
+        'Produced an event after-movie video by editing and compiling documentation footage for publication on Instagram.',
+        'Prepared, reviewed, and updated a total of 850 digital certificates across 7 award categories, ensuring accuracy and consistency of participant data.',
+      ],
+    },
   ],
 
   // ── Skills ───────────────────────────────────────────────────────
