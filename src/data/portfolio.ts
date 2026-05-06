@@ -171,6 +171,18 @@ export const portfolioData: PortfolioData = {
         'Designed and prepared event properties and supporting materials, ensured smooth quiz execution, and documented the event through photo and video production for reporting and publication purposes.',
       ],
     },
+    {
+      organization: 'Penerimaan Mahasiswa Baru KMK FILKOM UB',
+      role: 'Chief Executive',
+      type: 'kepanitiaan',
+      startDate: 'Jul 2024',
+      endDate: 'Jun 2025',
+      descriptions: [
+        'Led and supervised the overall execution of the event by managing a team of 10 committee members, coordinating cross-division tasks, and monitoring progress through regular coordination meetings.',
+        'Planned and managed event operations, including preparing the Event Budget Plan (RAB), securing venue reservations at Malang Creative Center (MCC), and ensuring all preparatory activities were completed on schedule.',
+        'Designed and prepared event properties and supporting materials, and documented the event through photo and video production for reporting and publication purposes.',
+      ],
+    },
   ],
 
   // ── Skills ───────────────────────────────────────────────────────
