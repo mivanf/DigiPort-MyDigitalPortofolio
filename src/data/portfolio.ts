@@ -161,14 +161,14 @@ export const portfolioData: PortfolioData = {
     },
     {
       organization: 'Open House KMK FILKOM UB',
-      role: 'Member of Multimedia Documentation Design Division',
+      role: 'Chief Executive',
       type: 'kepanitiaan',
       startDate: 'Jul 2024',
       endDate: 'Jun 2025',
       descriptions: [
-        'Designed Instagram feed content for event introduction and post-event recap to support digital engagement.',
-        'Produced an event after-movie video by editing and compiling documentation footage for publication on Instagram.',
-        'Prepared, reviewed, and updated a total of 850 digital certificates across 7 award categories, ensuring accuracy and consistency of participant data.',
+        'Led and supervised the overall execution of the event by managing a team of 10 committee members, coordinating cross-division tasks, and monitoring progress through regular coordination meetings.',
+        'Planned and managed event operations, including preparing the Event Budget Plan (RAB), preparing quiz prizes, and ensuring all logistical and technical requirements were fulfilled during the event.',
+        'Designed and prepared event properties and supporting materials, ensured smooth quiz execution, and documented the event through photo and video production for reporting and publication purposes.',
       ],
     },
   ],
