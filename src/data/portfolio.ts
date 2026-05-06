@@ -125,14 +125,14 @@ export const portfolioData: PortfolioData = {
   // ── Pengalaman Organisasi & Kepanitiaan ──────────────────────────
   experiences: [
     {
-      organization: 'Himpunan Mahasiswa Informatika',
-      role: 'Ketua Divisi Teknologi',
+      organization: 'Keluarga Mahasiswa Katolik (KMK) FILKOM UB',
+      role: 'Head of Public Relations and Multimedia Documentation Design Division',
       type: 'organisasi',
-      startDate: 'Sep 2023',
+      startDate: 'Jan 2025',
       descriptions: [
-        'Memimpin tim pengembangan website resmi himpunan.',
-        'Menyelenggarakan workshop pemrograman untuk anggota baru.',
-        'Mengelola infrastruktur server dan domain himpunan.',
+        'Managed and coordinated Public Relations and Multimedia Documentation Design tasks, including internal workflow distribution and collaboration with external partners.',
+        'Designed and produced official visual assets such as name tags and committee member profile layouts, and coordinated with printing vendors to ensure quality and timely delivery.',
+        'Handled internal and external communications, including disseminating official announcements, managing inquiries and invitations, and coordinating media partnerships with other universities.',
       ],
     },
     {
@@ -145,17 +145,6 @@ export const portfolioData: PortfolioData = {
         'Mengkoordinasikan acara kompetisi coding dengan 200+ peserta.',
         'Mengelola timeline dan logistik acara.',
         'Berkolaborasi dengan sponsor dari industri teknologi.',
-      ],
-    },
-    {
-      organization: 'Google Developer Student Club',
-      role: 'Core Team Member',
-      type: 'organisasi',
-      startDate: 'Aug 2023',
-      descriptions: [
-        'Menjadi fasilitator workshop Android Development.',
-        'Mengorganisir study jam bulanan untuk anggota.',
-        'Berkontribusi dalam pembuatan materi pembelajaran.',
       ],
     },
   ],
