@@ -245,8 +245,7 @@ export const portfolioData: PortfolioData = {
   // ── Languages ────────────────────────────────────────────────────
   languages: [
     { name: 'Indonesia', proficiency: 'Native' },
-    { name: 'English', proficiency: 'Fluent' },
-    { name: 'Japanese', proficiency: 'Beginner' },
+    { name: 'English', proficiency: 'Intermediate' },
   ],
 
   // ── Proyek Kuliah ────────────────────────────────────────────────
