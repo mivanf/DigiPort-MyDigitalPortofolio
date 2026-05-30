@@ -4,6 +4,11 @@ import type { Biodata } from '../data/portfolio'
 defineProps<{
   biodata: Biodata
 }>()
+
+function getWhatsAppUrl(phone: string): string {
+  const cleaned = phone.replace(/\D/g, '')
+  return `https://wa.me/${cleaned}`
+}
 </script>
 
 <template>
@@ -44,9 +49,14 @@ defineProps<{
             >
               {{ biodata.email }}
             </a>
-            <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface-800/80 border border-surface-700/50 text-surface-300 text-sm">
+            <a
+              :href="getWhatsAppUrl(biodata.phone)"
+              target="_blank"
+              rel="noopener"
+              class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface-800/80 border border-surface-700/50 text-surface-300 text-sm hover:border-primary-500/50 hover:text-primary-400 transition-all duration-200"
+            >
               {{ biodata.phone }}
-            </span>
+            </a>
           </div>
 
           <!-- Social Links -->
