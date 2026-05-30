@@ -28,10 +28,10 @@ function getProficiencyWidth(p: string): string {
             <div
               v-for="(interest, i) in interests"
               :key="i"
-              class="flex items-center gap-3 px-4 py-3 rounded-xl bg-surface-800/50 border border-surface-700/30 hover:border-primary-500/40 hover:bg-surface-800/80 transition-all duration-200 group cursor-default"
+              class="flex items-center justify-center gap-3 px-4 py-3 rounded-xl bg-surface-800/50 border border-surface-700/30 hover:border-primary-500/40 hover:bg-surface-800/80 transition-all duration-200 group cursor-default"
             >
-              <span class="text-2xl group-hover:scale-110 transition-transform">{{ interest.icon }}</span>
-              <span class="text-surface-200 text-sm font-medium group-hover:text-primary-400 transition-colors">{{ interest.name }}</span>
+              <span v-if="interest.icon" class="text-2xl group-hover:scale-110 transition-transform">{{ interest.icon }}</span>
+              <span class="text-surface-200 text-sm font-medium group-hover:text-primary-400 transition-colors text-center">{{ interest.name }}</span>
             </div>
           </div>
         </div>
