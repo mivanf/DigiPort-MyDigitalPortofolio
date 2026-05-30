@@ -4,6 +4,15 @@ import pythonLogo from '../assets/python_logo.png'
 import javaLogo from '../assets/java_logo.png'
 import cppLogo from '../assets/cpp_logo.png'
 import mysqlLogo from '../assets/mysql_logo.png'
+import figma from '../assets/figma_logo.png'
+import maze from '../assets/maze_logo.png'
+import canva from '../assets/canva_logo.png'
+import vscode from '../assets/vscode_logo.png'
+import android_studio from '../assets/android-studio_logo.png'
+import github from '../assets/github_logo.svg'
+import docker from '../assets/docker_logo.png'
+import linux from '../assets/linux_logo.png'
+
 
 // === Biodata & CV ===
 export interface Biodata {
@@ -214,39 +223,39 @@ export const portfolioData: PortfolioData = {
         { name: 'Python', level: 2, icon: pythonLogo },
         { name: 'Java', level: 3, icon: javaLogo },
         { name: 'C++', level: 2, icon: cppLogo },
-        { name: 'SQL', level: 3, icon: mysqlLogo },
+        { name: 'MySQL', level: 3, icon: mysqlLogo },
       ],
     },
     {
       category: 'Hard Skills',
       items: [
-        { name: 'Figma', level: 3, icon: '🎨' },
-        { name: 'Maze', level: 2, icon: '🧪' },
-        { name: 'Canva', level: 3, icon: '🖌️' },
-        { name: 'Visual Studio Code', level: 4, icon: '💻' },
-        { name: 'Android Studio', level: 3, icon: '🔌' },
-        { name: 'Git & GitHub', level: 3, icon: '🤖' },
-        { name: 'Docker', level: 2, icon: '🐳' },
-        { name: 'Linux', level: 3, icon: '🐧' },
+        { name: 'Figma', level: 3, icon: figma },
+        { name: 'Maze', level: 2, icon: maze },
+        { name: 'Canva', level: 3, icon: canva },
+        { name: 'Visual Studio Code', level: 4, icon: vscode },
+        { name: 'Android Studio', level: 3, icon: android_studio },
+        { name: 'Git & GitHub', level: 3, icon: github },
+        { name: 'Docker', level: 2, icon: docker },
+        { name: 'Linux', level: 3, icon: linux },
       ],
     },
     {
       category: 'Soft Skills',
       items: [
-        { name: 'Problem Solving', level: 4, icon: '🧩' },
-        { name: 'Time Management', level: 4, icon: '⏰' },
-        { name: 'Teamwork', level: 4, icon: '💬' },
-        { name: 'Leadership', level: 3, icon: '👥' },
-        { name: 'Attention to Detail', level: 4, icon: '🤝' },
+        { name: 'Problem Solving', level: 4 },
+        { name: 'Time Management', level: 4 },
+        { name: 'Teamwork', level: 4 },
+        { name: 'Leadership', level: 3 },
+        { name: 'Attention to Detail', level: 4 },
       ],
     },
   ],
 
   // ── Interests ────────────────────────────────────────────────────
   interests: [
-    { name: 'Web Development', icon: '🌐' },
-    { name: 'Mobile App Development', icon: '📱' },
-    { name: 'UI/UX Design', icon: '🎨' },
+    { name: 'Web Development' },
+    { name: 'Mobile App Development' },
+    { name: 'UI/UX Design' },
   ],
 
   // ── Languages ────────────────────────────────────────────────────
