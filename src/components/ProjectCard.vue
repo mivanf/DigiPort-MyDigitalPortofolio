@@ -47,7 +47,7 @@ defineProps<{
       </div>
 
       <p v-if="project.course" class="text-xs text-primary-400 font-medium mb-2">
-        📚 {{ project.course }}
+        {{ project.course }}
       </p>
 
       <p class="text-surface-400 text-sm leading-relaxed mb-4 line-clamp-3">

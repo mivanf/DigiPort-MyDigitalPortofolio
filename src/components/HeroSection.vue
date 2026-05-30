@@ -20,7 +20,7 @@ defineProps<{
         <!-- Text Content -->
         <div class="md:col-span-3 space-y-6 animate-fade-in-up">
           <div>
-            <p class="text-primary-400 font-semibold text-lg mb-2 tracking-wide">👋 Halo, saya</p>
+            <p class="text-primary-400 font-semibold text-lg mb-2 tracking-wide">Halo, saya</p>
             <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
               {{ biodata.name }}
             </h1>
@@ -36,16 +36,16 @@ defineProps<{
           <!-- Contact Info Badges -->
           <div class="flex flex-wrap gap-3">
             <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface-800/80 border border-surface-700/50 text-surface-300 text-sm">
-              📍 {{ biodata.location }}
+              {{ biodata.location }}
             </span>
             <a
               :href="'mailto:' + biodata.email"
               class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface-800/80 border border-surface-700/50 text-surface-300 text-sm hover:border-primary-500/50 hover:text-primary-400 transition-all duration-200"
             >
-              ✉️ {{ biodata.email }}
+              {{ biodata.email }}
             </a>
             <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface-800/80 border border-surface-700/50 text-surface-300 text-sm">
-              📱 {{ biodata.phone }}
+              {{ biodata.phone }}
             </span>
           </div>
 

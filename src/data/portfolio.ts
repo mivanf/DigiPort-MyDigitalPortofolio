@@ -1,3 +1,10 @@
+import typescriptLogo from '../assets/typescript_logo.png'
+import javascriptLogo from '../assets/javascript_logo.png'
+import pythonLogo from '../assets/python_logo.png'
+import javaLogo from '../assets/java_logo.png'
+import cppLogo from '../assets/cpp_logo.png'
+import mysqlLogo from '../assets/mysql_logo.png'
+
 // === Biodata & CV ===
 export interface Biodata {
   name: string
@@ -202,12 +209,12 @@ export const portfolioData: PortfolioData = {
     {
       category: 'Programming Languages',
       items: [
-        { name: 'TypeScript', level: 3, icon: '🟦' },
-        { name: 'JavaScript', level: 3, icon: '🟨' },
-        { name: 'Python', level: 2, icon: '🐍' },
-        { name: 'Java', level: 3, icon: '☕' },
-        { name: 'C++', level: 2, icon: '⚙️' },
-        { name: 'SQL', level: 3, icon: '🗄️' },
+        { name: 'TypeScript', level: 3, icon: typescriptLogo },
+        { name: 'JavaScript', level: 3, icon: javascriptLogo },
+        { name: 'Python', level: 2, icon: pythonLogo },
+        { name: 'Java', level: 3, icon: javaLogo },
+        { name: 'C++', level: 2, icon: cppLogo },
+        { name: 'SQL', level: 3, icon: mysqlLogo },
       ],
     },
     {

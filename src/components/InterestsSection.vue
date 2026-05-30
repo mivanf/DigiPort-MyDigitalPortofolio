@@ -22,7 +22,7 @@ function getProficiencyWidth(p: string): string {
         <!-- Interests -->
         <div class="glass-card p-6 animate-fade-in-up">
           <h3 class="text-lg font-bold text-white mb-5 flex items-center gap-2">
-            <span class="text-xl">🎯</span> Interests
+            Interests
           </h3>
           <div class="grid grid-cols-2 gap-3">
             <div
@@ -39,7 +39,7 @@ function getProficiencyWidth(p: string): string {
         <!-- Languages -->
         <div class="glass-card p-6 animate-fade-in-up stagger-2">
           <h3 class="text-lg font-bold text-white mb-5 flex items-center gap-2">
-            <span class="text-xl">🗣️</span> Languages
+            Languages
           </h3>
           <div class="space-y-5">
             <div v-for="(lang, i) in languages" :key="i">
