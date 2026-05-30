@@ -278,7 +278,7 @@ export const portfolioData: PortfolioData = {
     {
       title: 'Galeri MVC - Web Application',
       imageUrl: 'mvc_image.png',
-      technologies: ['PHP', 'MySQL', 'XAMPP', 'GitHub'],
+      technologies: ['PHP', 'HTML', 'CSS', 'MySQL', 'XAMPP', 'GitHub'],
       description:
         'An MVC-based gallery application for managing and displaying images along with user metadata.',
       link: 'https://github.com/mivanf/ImageGalleryUTS',
