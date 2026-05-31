@@ -54,7 +54,6 @@ onUnmounted(() => {
           href="#"
           class="flex items-center gap-2 text-xl font-bold bg-gradient-to-r from-primary-400 to-primary-600 bg-clip-text text-transparent hover:from-primary-300 hover:to-primary-500 transition-all duration-300"
         >
-          <span class="text-2xl">⚡</span>
           Portfolio
         </a>
 

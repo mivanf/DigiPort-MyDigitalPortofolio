@@ -9,8 +9,8 @@ defineProps<{
 <template>
   <section id="education" class="relative">
     <div class="section-container">
-      <h2 class="section-title">🎓 Pendidikan</h2>
-      <p class="section-subtitle">Riwayat pendidikan formal saya</p>
+      <h2 class="section-title">🎓 Education</h2>
+      <p class="section-subtitle">My educational history</p>
 
       <div class="relative">
         <!-- Timeline line -->
@@ -39,10 +39,10 @@ defineProps<{
                     v-if="edu.gpa"
                     class="text-sm font-semibold text-primary-400 bg-primary-500/10 px-3 py-1 rounded-full border border-primary-500/20"
                   >
-                    IPK {{ edu.gpa }}
+                    GPA {{ edu.gpa }}
                   </span>
                   <span class="text-sm text-surface-400 bg-surface-800/80 px-3 py-1 rounded-full border border-surface-700/50">
-                    {{ edu.startYear }} — {{ edu.endYear ?? 'Sekarang' }}
+                    {{ edu.startYear }} — {{ edu.endYear ?? 'Present' }}
                   </span>
                 </div>
               </div>

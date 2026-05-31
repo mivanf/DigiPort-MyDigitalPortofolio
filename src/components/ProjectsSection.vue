@@ -10,8 +10,8 @@ defineProps<{
 <template>
   <section id="projects" class="relative">
     <div class="section-container">
-      <h2 class="section-title">📂 Proyek Kuliah</h2>
-      <p class="section-subtitle">Proyek yang pernah saya kerjakan selama perkuliahan</p>
+      <h2 class="section-title">📂 College Project</h2>
+      <p class="section-subtitle">Projects I worked on during college</p>
 
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div

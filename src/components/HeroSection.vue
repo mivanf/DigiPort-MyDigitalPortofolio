@@ -25,7 +25,7 @@ function getWhatsAppUrl(phone: string): string {
         <!-- Text Content -->
         <div class="md:col-span-3 space-y-6 animate-fade-in-up">
           <div>
-            <p class="text-primary-400 font-semibold text-lg mb-2 tracking-wide">Halo, saya</p>
+            <p class="text-primary-400 font-semibold text-lg mb-2 tracking-wide">Hello, I'm</p>
             <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
               {{ biodata.name }}
             </h1>

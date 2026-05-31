@@ -16,7 +16,7 @@ function getProficiencyWidth(p: string): string {
   <section id="interests" class="relative">
     <div class="section-container">
       <h2 class="section-title">✨ Interests & Languages</h2>
-      <p class="section-subtitle">Hal-hal yang saya minati dan bahasa yang saya kuasai</p>
+      <p class="section-subtitle">My interests and the languages I speak</p>
 
       <div class="grid md:grid-cols-2 gap-8">
         <!-- Interests -->

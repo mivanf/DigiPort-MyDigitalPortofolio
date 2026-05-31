@@ -27,7 +27,7 @@ function isImageIcon(icon?: string): boolean {
   <section id="skills" class="relative">
     <div class="section-container">
       <h2 class="section-title">🚀 Skills</h2>
-      <p class="section-subtitle">Kemampuan teknis dan interpersonal saya</p>
+      <p class="section-subtitle">My technical and interpersonal skills</p>
 
       <div class="grid md:grid-cols-3 gap-6">
         <div

@@ -5,18 +5,18 @@ defineProps<{
   experiences: OrganizationExperience[]
 }>()
 
-function getTypeBadge(type: 'organisasi' | 'kepanitiaan') {
-  return type === 'organisasi'
-    ? { label: 'Organisasi', color: 'bg-primary-500/15 text-primary-400 border-primary-500/25' }
-    : { label: 'Kepanitiaan', color: 'bg-emerald-500/15 text-emerald-400 border-emerald-500/25' }
+function getTypeBadge(type: 'organization' | 'committee') {
+  return type === 'organization'
+    ? { label: 'Organization', color: 'bg-primary-500/15 text-primary-400 border-primary-500/25' }
+    : { label: 'Committee', color: 'bg-emerald-500/15 text-emerald-400 border-emerald-500/25' }
 }
 </script>
 
 <template>
   <section id="experience" class="relative">
     <div class="section-container">
-      <h2 class="section-title">💼 Pengalaman</h2>
-      <p class="section-subtitle">Organisasi dan kepanitiaan yang pernah saya ikuti</p>
+      <h2 class="section-title">💼 Experience</h2>
+      <p class="section-subtitle">Organizations and committees I have been a part of</p>
 
       <div class="relative">
         <!-- Timeline line -->
@@ -47,7 +47,7 @@ function getTypeBadge(type: 'organisasi' | 'kepanitiaan') {
                     {{ getTypeBadge(exp.type).label }}
                   </span>
                   <span class="text-sm text-surface-400 bg-surface-800/80 px-3 py-1 rounded-full border border-surface-700/50">
-                    {{ exp.startDate }} — {{ exp.endDate ?? 'Sekarang' }}
+                    {{ exp.startDate }} — {{ exp.endDate ?? 'Present' }}
                   </span>
                 </div>
               </div>

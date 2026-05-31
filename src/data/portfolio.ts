@@ -44,7 +44,7 @@ export interface Education {
 export interface OrganizationExperience {
   organization: string
   role: string
-  type: 'organisasi' | 'kepanitiaan'
+  type: 'organization' | 'committee'
   startDate: string
   endDate?: string
   descriptions: string[]
@@ -103,35 +103,35 @@ export const portfolioData: PortfolioData = {
   // ── Biodata ──────────────────────────────────────────────────────
   biodata: {
     name: 'Michael Ivan Farrelino',
-    title: 'Mahasiswa Teknologi Informasi',
-    university: 'Universitas Brawijaya',
+    title: 'Information Technology Student',
+    university: 'Brawijaya University',
     email: 'michaelivanf@gmail.com',
     phone: '+62 812-1825-7284',
     location: 'Jakarta, Indonesia',
     linkedin: 'https://linkedin.com/in/michaelivanf',
     github: 'https://github.com/mivanf',
     about:
-      'Mahasiswa Teknologi Informasi yang berfokus pada Web Development dan Mobile App Development. ' +
-      'Membangun solusi digital yang user-centered menggunakan berbagai bahasa pemrograman dan tools modern. ' +
-      'Tertarik belajar hal baru dan berkontribusi dalam proyek kolaboratif.',
+      'An Information Technology student specializing in Web Development and Mobile App Development. ' +
+      'Building user-centered digital solutions using a variety of programming languages and modern tools. ' +
+      'Interested in learning new things and contributing to collaborative projects.',
     photoUrl: '/profile.jpeg',
   },
 
   // ── Pendidikan ───────────────────────────────────────────────────
   education: [
     {
-      institution: 'Universitas Brawijaya',
-      degree: 'Sarjana (S1)',
-      field: 'Teknologi Informasi',
+      institution: 'Brawijaya University',
+      degree: 'Bachelor (S1)',
+      field: 'Information Technology',
       startYear: 2023,
       gpa: 3.83,
       description:
-        'Fokus pada bidang rekayasa perangkat lunak dan pengembangan web. Aktif dalam berbagai kegiatan dan organisasi kampus.',
+        'Focuses on software engineering and web development. Active in various campus activities and organizations.',
     },
     {
-      institution: 'SMA Negeri 14 Jakarta',
-      degree: 'SMA',
-      field: 'IPA (Ilmu Pengetahuan Alam)',
+      institution: 'State Senior High School 14 Jakarta',
+      degree: 'High School Diploma',
+      field: 'Science',
       startYear: 2020,
       endYear: 2023,
       description: '',
@@ -143,7 +143,7 @@ export const portfolioData: PortfolioData = {
     {
       organization: 'Keluarga Mahasiswa Katolik (KMK) FILKOM UB',
       role: 'Head of Public Relations and Multimedia Documentation Design Division',
-      type: 'organisasi',
+      type: 'organization',
       startDate: 'Jan 2025',
       descriptions: [
         'Managed and coordinated Public Relations and Multimedia Documentation Design tasks, including internal workflow distribution and collaboration with external partners.',
@@ -154,7 +154,7 @@ export const portfolioData: PortfolioData = {
     {
       organization: 'IT FEST FILKOM UB',
       role: 'Member of the Competition Division',
-      type: 'kepanitiaan',
+      type: 'committee',
       startDate: 'Mar 2024',
       endDate: 'Feb 2025',
       descriptions: [
@@ -166,7 +166,7 @@ export const portfolioData: PortfolioData = {
     {
       organization: 'Competition of Outstanding Creativity and Exploration (CODE) FILKOM UB',
       role: 'Member of Multimedia Documentation Design Division',
-      type: 'kepanitiaan',
+      type: 'committee',
       startDate: 'Jul 2024',
       endDate: 'Jun 2025',
       descriptions: [
@@ -178,7 +178,7 @@ export const portfolioData: PortfolioData = {
     {
       organization: 'Open House KMK FILKOM UB',
       role: 'Chief Executive',
-      type: 'kepanitiaan',
+      type: 'committee',
       startDate: 'Sep 2024',
       endDate: 'Aug 2025',
       descriptions: [
@@ -190,7 +190,7 @@ export const portfolioData: PortfolioData = {
     {
       organization: 'Penerimaan Mahasiswa Baru KMK FILKOM UB',
       role: 'Chief Executive',
-      type: 'kepanitiaan',
+      type: 'committee',
       startDate: 'Sep 2024',
       endDate: 'Aug 2025',
       descriptions: [
@@ -202,7 +202,7 @@ export const portfolioData: PortfolioData = {
     {
       organization: 'House of Technology (HOLOGY) 8.0 FILKOM UB',
       role: 'Member of Equipment Division',
-      type: 'kepanitiaan',
+      type: 'committee',
       startDate: 'Jun 2025',
       //endDate: 'Jun 2025',
       descriptions: [
@@ -218,10 +218,10 @@ export const portfolioData: PortfolioData = {
     {
       category: 'Programming Languages',
       items: [
+        { name: 'Java', level: 3, icon: javaLogo },
+        { name: 'Python', level: 2, icon: pythonLogo },
         { name: 'TypeScript', level: 3, icon: typescriptLogo },
         { name: 'JavaScript', level: 3, icon: javascriptLogo },
-        { name: 'Python', level: 2, icon: pythonLogo },
-        { name: 'Java', level: 3, icon: javaLogo },
         { name: 'C++', level: 2, icon: cppLogo },
         { name: 'MySQL', level: 3, icon: mysqlLogo },
       ],
